@@ -1,315 +1,214 @@
-{
-  "meta" : {
-    "view" : {
-      "id" : "hnsc-tc3b",
-      "name" : "Oregon Royalty Fund",
-      "assetType" : "dataset",
-      "attribution" : "Business Oregon",
-      "attributionLink" : "https://www.oregon4biz.com/About-Us/Investments-Report/",
-      "averageRating" : 0,
-      "category" : "Revenue & Expense",
-      "createdAt" : 1569875107,
-      "description" : "The Oregon Royalty Fund provides direct loans to help early stage (post R & D and prototyping), scalable, and high-margin small businesses obtain short-term working capital to support rapid growth. This report covers Fiscal Years 2019-2021. For more information visit https://www.oregon4biz.com/How-We-Can-Help/Finance-Programs/ORF/",
-      "displayType" : "table",
-      "downloadCount" : 277,
-      "hideFromCatalog" : false,
-      "hideFromDataJson" : false,
-      "indexUpdatedAt" : 1569950733,
-      "licenseId" : "PUBLIC_DOMAIN",
-      "newBackend" : true,
-      "numberOfComments" : 0,
-      "oid" : 32520714,
-      "provenance" : "official",
-      "publicationAppendEnabled" : false,
-      "publicationDate" : 1569883131,
-      "publicationGroup" : 16600187,
-      "publicationStage" : "published",
-      "rowsUpdatedAt" : 1632810864,
-      "rowsUpdatedBy" : "j3nq-6jqm",
-      "tableId" : 16600187,
-      "totalTimesRated" : 0,
-      "viewCount" : 436,
-      "viewLastModified" : 1632810863,
-      "viewType" : "tabular",
-      "approvals" : [ {
-        "reviewedAt" : 1569883132,
-        "reviewedAutomatically" : true,
-        "state" : "approved",
-        "submissionId" : 1289813,
-        "submissionObject" : "public_audience_request",
-        "submissionOutcome" : "change_audience",
-        "submittedAt" : 1569883132,
-        "workflowId" : 1508,
-        "submissionDetails" : {
-          "permissionType" : "READ"
-        },
-        "submissionOutcomeApplication" : {
-          "endedAt" : 1569883132,
-          "failureCount" : 0,
-          "startedAt" : 1569883132,
-          "status" : "success"
-        },
-        "submitter" : {
-          "id" : "ewcx-ibs2",
-          "displayName" : "Carmen Spuhler"
-        }
-      } ],
-      "clientContext" : {
-        "clientContextVariables" : [ ],
-        "inheritedVariables" : { }
-      },
-      "columns" : [ {
-        "id" : -1,
-        "name" : "sid",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":sid",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : { },
-        "flags" : [ "hidden" ]
-      }, {
-        "id" : -1,
-        "name" : "id",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":id",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : { },
-        "flags" : [ "hidden" ]
-      }, {
-        "id" : -1,
-        "name" : "position",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":position",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : { },
-        "flags" : [ "hidden" ]
-      }, {
-        "id" : -1,
-        "name" : "created_at",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":created_at",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : { },
-        "flags" : [ "hidden" ]
-      }, {
-        "id" : -1,
-        "name" : "created_meta",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":created_meta",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : { },
-        "flags" : [ "hidden" ]
-      }, {
-        "id" : -1,
-        "name" : "updated_at",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":updated_at",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : { },
-        "flags" : [ "hidden" ]
-      }, {
-        "id" : -1,
-        "name" : "updated_meta",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":updated_meta",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : { },
-        "flags" : [ "hidden" ]
-      }, {
-        "id" : -1,
-        "name" : "meta",
-        "dataTypeName" : "meta_data",
-        "fieldName" : ":meta",
-        "position" : 0,
-        "renderTypeName" : "meta_data",
-        "format" : { },
-        "flags" : [ "hidden" ]
-      }, {
-        "id" : 431066199,
-        "name" : "Business Receiving Loan",
-        "dataTypeName" : "text",
-        "description" : "Business Receiving Loan",
-        "fieldName" : "business_receiving_loan",
-        "position" : 1,
-        "renderTypeName" : "text",
-        "tableColumnId" : 88461943,
-        "cachedContents" : {
-          "largest" : "No activity",
-          "non_null" : "3",
-          "null" : "0",
-          "top" : [ {
-            "item" : "No activity",
-            "count" : "1"
-          }, {
-            "item" : "Kaczmarek Digital Media Group, Inc.",
-            "count" : "1"
-          }, {
-            "item" : "DulsEnergy, Inc.",
-            "count" : "1"
-          } ],
-          "smallest" : "DulsEnergy, Inc.",
-          "count" : "3",
-          "cardinality" : "3"
-        },
-        "format" : { }
-      }, {
-        "id" : 431066200,
-        "name" : "Year Loan Made",
-        "dataTypeName" : "text",
-        "description" : "Year Loan Made",
-        "fieldName" : "year_loan_made",
-        "position" : 2,
-        "renderTypeName" : "text",
-        "tableColumnId" : 88461944,
-        "cachedContents" : {
-          "largest" : "FY2021",
-          "non_null" : "3",
-          "null" : "0",
-          "top" : [ {
-            "item" : "FY2019",
-            "count" : "1"
-          }, {
-            "item" : "FY2021",
-            "count" : "1"
-          }, {
-            "item" : "FY2020",
-            "count" : "1"
-          } ],
-          "smallest" : "FY2019",
-          "count" : "3",
-          "cardinality" : "3"
-        },
-        "format" : { }
-      }, {
-        "id" : 431066201,
-        "name" : "Use of Funds",
-        "dataTypeName" : "text",
-        "description" : "Project description",
-        "fieldName" : "use_of_funds",
-        "position" : 3,
-        "renderTypeName" : "text",
-        "tableColumnId" : 88461945,
-        "cachedContents" : {
-          "largest" : "Working Capital to grow business Sales",
-          "non_null" : "2",
-          "null" : "1",
-          "top" : [ {
-            "item" : "Working Capital to grow business Sales",
-            "count" : "1"
-          }, {
-            "item" : "Seaweed Farming & Food Processing",
-            "count" : "1"
-          } ],
-          "smallest" : "Seaweed Farming & Food Processing",
-          "count" : "3",
-          "cardinality" : "2"
-        },
-        "format" : { }
-      }, {
-        "id" : 431066202,
-        "name" : "Award Type",
-        "dataTypeName" : "text",
-        "description" : "Award Type (Grant, Loan, etc.)",
-        "fieldName" : "award_type",
-        "position" : 4,
-        "renderTypeName" : "text",
-        "tableColumnId" : 88461946,
-        "cachedContents" : {
-          "largest" : "Loan",
-          "non_null" : "2",
-          "null" : "1",
-          "top" : [ {
-            "item" : "Loan",
-            "count" : "2"
-          } ],
-          "smallest" : "Loan",
-          "count" : "3",
-          "cardinality" : "1"
-        },
-        "format" : { }
-      }, {
-        "id" : 431066203,
-        "name" : "Amount",
-        "dataTypeName" : "number",
-        "description" : "US$",
-        "fieldName" : "amount",
-        "position" : 5,
-        "renderTypeName" : "number",
-        "tableColumnId" : 88461947,
-        "cachedContents" : {
-          "largest" : "250000",
-          "non_null" : "2",
-          "null" : "1",
-          "top" : [ {
-            "item" : "100000",
-            "count" : "1"
-          }, {
-            "item" : "250000",
-            "count" : "1"
-          } ],
-          "smallest" : "100000",
-          "count" : "3",
-          "cardinality" : "2"
-        },
-        "format" : {
-          "precisionStyle" : "currency",
-          "currencyStyle" : "USD"
-        }
-      } ],
-      "grants" : [ {
-        "inherited" : false,
-        "type" : "viewer",
-        "flags" : [ "public" ]
-      } ],
-      "license" : {
-        "name" : "Public Domain"
-      },
-      "metadata" : {
-        "custom_fields" : {
-          "Dataset Information" : {
-            "Geographic Coverage" : "Statewide ",
-            "Data Publishing Frequency" : "Annually",
-            "Data Change Frequency" : "Annually",
-            "Agency Name" : "Business Oregon ",
-            "Agency URL" : "https://www.oregon4biz.com/"
-          }
-        },
-        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
-      },
-      "owner" : {
-        "id" : "ewcx-ibs2",
-        "displayName" : "Carmen Spuhler",
-        "profileImageUrlLarge" : "/api/users/ewcx-ibs2/profile_images/LARGE",
-        "profileImageUrlMedium" : "/api/users/ewcx-ibs2/profile_images/THUMB",
-        "profileImageUrlSmall" : "/api/users/ewcx-ibs2/profile_images/TINY",
-        "screenName" : "Carmen Spuhler",
-        "type" : "interactive",
-        "flags" : [ "acceptedEula" ]
-      },
-      "query" : { },
-      "rights" : [ "read" ],
-      "tableAuthor" : {
-        "id" : "ewcx-ibs2",
-        "displayName" : "Carmen Spuhler",
-        "profileImageUrlLarge" : "/api/users/ewcx-ibs2/profile_images/LARGE",
-        "profileImageUrlMedium" : "/api/users/ewcx-ibs2/profile_images/THUMB",
-        "profileImageUrlSmall" : "/api/users/ewcx-ibs2/profile_images/TINY",
-        "screenName" : "Carmen Spuhler",
-        "type" : "interactive",
-        "flags" : [ "acceptedEula" ]
-      },
-      "tags" : [ "oregon royalty fund", "fiscal year 2019", "fiscal year 2020", "fiscal year 2021" ],
-      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
-    }
-  },
-  "data" : [ [ "row-zup6-cs82~t6xv", "00000000-0000-0000-8625-B7785E0B2DD4", 0, 1632810864, null, 1632810864, null, "{ }", "DulsEnergy, Inc.", "FY2019", "Seaweed Farming & Food Processing", "Loan", "250000" ]
-, [ "row-iqau_qpy9-2nct", "00000000-0000-0000-2FC8-CE372E449D64", 0, 1632810864, null, 1632810864, null, "{ }", "No activity", "FY2020", null, null, null ]
-, [ "row-j2fz~f4en~hmry", "00000000-0000-0000-C9C9-BD370DA76EDA", 0, 1632810864, null, 1632810864, null, "{ }", "Kaczmarek Digital Media Group, Inc.", "FY2021", "Working Capital to grow business Sales", "Loan", "100000" ]
+{ "data" : [ [ "row-n3j4_ken9~tzhq", "00000000-0000-0000-E434-34C3E10762E1", 0, 1539115167, null, 1539115167, null, "{ }", "1A SMART START INC", "2814", "MAIN ST", "Safety Equipment Supplier" ]
+, [ "row-gj22.wx7j~4m6k", "00000000-0000-0000-F6EF-4E34B88FC401", 0, 1539115167, null, 1539115167, null, "{ }", "496-516 GARDEN STREET ASSOCIATES LP", "496", "GARDEN ST", "Apartment Complex" ]
+, [ "row-bi7e_vr9p-cri2", "00000000-0000-0000-DE94-A44DF9885903", 0, 1539115167, null, 1539115167, null, "{ }", "ACORE BUILDERS LLC", "3440", "MAIN ST", "Building Company" ]
+, [ "row-ncpi-4wse~524d", "00000000-0000-0000-9425-D40AC22A4CB9", 0, 1539115167, null, 1539115167, null, "{ }", "AERO ALL-GAS CO THE", "3150", "MAIN ST", "Gas Company" ]
+, [ "row-cyyy-nsei.jcfu", "00000000-0000-0000-EB78-877669228D12", 0, 1539115167, null, 1539115167, null, "{ }", "ALEGRIA GROCERY", "4", "MARTIN ST", "Grocery Store" ]
+, [ "row-nq89-neei_yfd6", "00000000-0000-0000-3E1B-261D4B22DBDD", 0, 1539115167, null, 1539115167, null, "{ }", "ALEX GROCERIES LLC", "2370", "MAIN ST", "Grocery Store" ]
+, [ "row-47fz.csbi.8tph", "00000000-0000-0000-462A-84BDC3518CFE", 0, 1539115167, null, 1539115167, null, "{ }", "ALL GAS & EQUIPMENT CO THE", "3150", "MAIN ST", "Gas Company" ]
+, [ "row-9atm-4c4i~sne8", "00000000-0000-0000-485B-5EBD6AFE1CC6", 0, 1539115167, null, 1539115167, null, "{ }", "ALL PURPOSE WELDING LLC", "806", "WINDSOR ST", "Metal Worker/Welder" ]
+, [ "row-uk3u~3kn7-6q83", "00000000-0000-0000-38DC-BC199BC1AF8A", 0, 1539115167, null, 1539115167, null, "{ }", "AMERICAN MASONS & BUILDING SUPPLY C", "3250", "MAIN ST", "Construction Supply Company" ]
+, [ "row-5yz5~vgv7-eq5c", "00000000-0000-0000-8374-CD4E3E52CB8F", 0, 1539115167, null, 1539115167, null, "{ }", "ANGEL WIRELESS AND ACCESSORY LLC", "213", "CAPEN ST", "Cell Phone Store" ]
+, [ "row-w7uc~g3jc~4k3f", "00000000-0000-0000-6ED2-9A1288C403E5", 0, 1539115167, null, 1539115167, null, "{ }", "ARROW PRESCRIPTION CENTER #13 INC", "131", "COVENTRY ST", "Pharamacy" ]
+, [ "row-38j2~fbv6~gyxb", "00000000-0000-0000-D9DC-8DB4A4CBF5E2", 0, 1539115167, null, 1539115167, null, "{ }", "ASHANTI MEDICAL ASSOCIATES LLC", "675", "TOWER AV", "Medical Office" ]
+, [ "row-k8a7-fhtj-jtjj", "00000000-0000-0000-2FB0-6229D77A17BC", 0, 1539115167, null, 1539115167, null, "{ }", "ASSOCIATED SUPERMARKET", "259", "BARBOUR ST", "Grocery Store" ]
+, [ "row-4dfm.kk4r.k4pm", "00000000-0000-0000-690C-B435524C2A2A", 0, 1539115167, null, 1539115167, null, "{ }", "ATWOOD LIQUOR STORE", "3460", "MAIN ST", "Liquor Store" ]
+, [ "row-mgzd~63tt-h2t3", "00000000-0000-0000-1FCC-AE876F69BA03", 0, 1539115167, null, 1539115167, null, "{ }", "AUTO PARTS DEPOT INC", "741", "WINDSOR ST", "Automobile Services" ]
+, [ "row-yvfh~bb7w_6h3w", "00000000-0000-0000-48D9-3888E86FB093", 0, 1539115167, null, 1539115167, null, "{ }", "AUTOFLOW FINANCING LLC", "760", "WINDSOR ST", "Financial Services" ]
+, [ "row-bby2_jkvv_24pd", "00000000-0000-0000-D362-4DCA9C5B5C62", 0, 1539115167, null, 1539115167, null, "{ }", "BARBOUR GARDENS", "393", "BARBOUR ST", "Apartment Complex" ]
+, [ "row-jjdx_264w~sc29", "00000000-0000-0000-9C6D-9B024A15FD3C", 0, 1539115167, null, 1539115167, null, "{ }", "BARTHOLOMEW CONTRACT INTERIOR", "3324", "MAIN ST", "Contracting Services" ]
+, [ "row-5s8i-qdjw_83k6", "00000000-0000-0000-E33C-926058FF719B", 0, 1539115167, null, 1539115167, null, "{ }", "BC BOUTIQUE", "172", "TOWER AV", "Clothing Store" ]
+, [ "row-cwp8~59rq-qib8", "00000000-0000-0000-DD1D-CE8480A841F4", 0, 1539115167, null, 1539115167, null, "{ }", "BGRATE CLOTHING", "33", "ELMER ST", "Clothing Store" ]
+, [ "row-zvx4.7jei~m2cp", "00000000-0000-0000-920F-74FF2A5A928A", 0, 1539115167, null, 1539115167, null, "{ }", "BLAIR CHILD CARE", "22", "ADDISON ST", "Child Care Agency" ]
+, [ "row-2fye~mkge-qb4c", "00000000-0000-0000-EBE5-ADBBB6EDDC46", 0, 1539115167, null, 1539115167, null, "{ }", "BLUE FIVE CORNERS LLC", "214", "WESTLAND ST", "Grocery Store" ]
+, [ "row-7dkw_nm4u~f89y", "00000000-0000-0000-80ED-27E9BCB501D6", 0, 1539115167, null, 1539115167, null, "{ }", "BLUE MINI MARKET", "205", "BARBOUR ST", "Grocery Store" ]
+, [ "row-mbx3-fkep_bhp5", "00000000-0000-0000-1058-A614BA209E81", 0, 1539115167, null, 1539115167, null, "{ }", "BLUES PACKAGE STORE", "139", "BARBOUR ST", "Liquor Store" ]
+, [ "row-q54b-7n7c~vt24", "00000000-0000-0000-3739-4086E57617F4", 0, 1539115167, null, 1539115167, null, "{ }", "BLUPRINT BAR AND RESTAURANT LLC", "3395", "MAIN ST", "Restaurant" ]
+, [ "row-8tqh.fi43.xeh2", "00000000-0000-0000-18D3-654BED3C5D8C", 0, 1539115167, null, 1539115167, null, "{ }", "BOOKS BLESSED HANDS BARBER SHOP LLC", "2753", "MAIN ST", "Barber Shop" ]
+, [ "row-hmy8_yh9s_yx9v", "00000000-0000-0000-EADC-D6200D2DDDBE", 0, 1539115167, null, 1539115167, null, "{ }", "BRD BUILDERS LLC", "2099", "MAIN ST", "Construction Company" ]
+, [ "row-t6vu-n2zt.3ygr", "00000000-0000-0000-4C8A-B47FD8B18A41", 0, 1539115167, null, 1539115167, null, "{ }", "BUNDLES OF JOY CHRISTIAN DAY CARE", "251", "RIDGEFIELD ST", "Child Care Service" ]
+, [ "row-g5xr.r8g9_txhq", "00000000-0000-0000-2616-AAFDB0966B18", 0, 1539115167, null, 1539115167, null, "{ }", "BUSY BEE CLEANING SERVICE LLC", "415", "EDGEWOOD ST", "Cleaning Services" ]
+, [ "row-97ka~89q6.26y6", "00000000-0000-0000-6A9E-A2A3ED0DE775", 0, 1539115167, null, 1539115167, null, "{ }", "CARLTON BARBER SHOP", "3155", "MAIN ST", "Barber Shop" ]
+, [ "row-7ahq~3jg2~sjs6", "00000000-0000-0000-3A1F-214C6A7D2404", 0, 1539115167, null, 1539115167, null, "{ }", "CARTER`S GARAGE", "104", "WESTLAND ST", "Auto Wrecker" ]
+, [ "row-hr5q.gjus-njtd", "00000000-0000-0000-1E41-A081628050DE", 0, 1539115167, null, 1539115167, null, "{ }", "CASH N CARRY WHOLESALE INC", "2964", "MAIN ST", "Grocery Store" ]
+, [ "row-annz~35py_vhiy", "00000000-0000-0000-DBCF-DF070602D9CC", 0, 1539115167, null, 1539115167, null, "{ }", "CHARMAINE`S HAIR DESIGN", "3155", "MAIN ST", "Hair Salon" ]
+, [ "row-3sfa_34e5.9w6i", "00000000-0000-0000-0D6D-47107A7C6075", 0, 1539115167, null, 1539115167, null, "{ }", "CHEONG`S GARDEN", "265", "BARBOUR ST", "Restaurant" ]
+, [ "row-gw2n~tpd3.xyaf", "00000000-0000-0000-29F3-E405275EC0E5", 0, 1539115167, null, 1539115167, null, "{ }", "CHOICE ONE COMMUNICATIONS OF CT INC", "300", "WINDSOR ST", "Communication Consultant" ]
+, [ "row-3akb.xjq4-cwng", "00000000-0000-0000-D376-44B1D3A35C16", 0, 1539115167, null, 1539115167, null, "{ }", "CHU INC", "818", "WINDSOR ST", "Construction Contractor" ]
+, [ "row-j58s~ns9d_57ck", "00000000-0000-0000-4D25-F5EB3BA7E647", 0, 1539115167, null, 1539115167, null, "{ }", "CK STAR CHINESE RESTAURANT LLC", "2995", "MAIN ST", "Restaurant" ]
+, [ "row-fdjz_rwjy_4dhk", "00000000-0000-0000-862E-000AF76FFCB7", 0, 1539115167, null, 1539115167, null, "{ }", "CLARK BELL & BELL FUNERAL HOME INC", "319", "BARBOUR ST", "Funeral Home" ]
+, [ "row-yddm.winw_c7pw", "00000000-0000-0000-8289-756FED94F9CA", 0, 1539115167, null, 1539115167, null, "{ }", "CLARK JOHN C & ASSOCIATES ARCHITECT", "30", "ASHFORD ST", "Architecture Firm" ]
+, [ "row-9hps~38ma_btz7", "00000000-0000-0000-7F21-5766F61501B9", 0, 1539115167, null, 1539115167, null, "{ }", "CLEVELAND CAFE", "3019", "MAIN ST", "Restaurant" ]
+, [ "row-223t~n7ya~87xc", "00000000-0000-0000-9C66-47FB6F30A58A", 0, 1539115167, null, 1539115167, null, "{ }", "COLORFUL LITTLE BUTTERFLIES LLC", "2", "AUBURN ST", "Child Care Agency" ]
+, [ "row-egb8-ynez-t8st", "00000000-0000-0000-F862-D04E9633725A", 0, 1539115167, null, 1539115167, null, "{ }", "CONGRESSMAN MARKET LLC", "1978", "MAIN ST", "Grocery Store" ]
+, [ "row-rw2e_hxfy~kina", "00000000-0000-0000-B97D-E6F5678A7503", 0, 1539115167, null, 1539115167, null, "{ }", "CONGRESSMAN PACKAGE STORE", "1988", "MAIN ST", "Liquor Store" ]
+, [ "row-riy4_q672-myfq", "00000000-0000-0000-9957-154B38C4ADCD", 0, 1539115167, null, 1539115167, null, "{ }", "CONNECTICUT HISPANIC YELLOW PAGES INC", "3580", "MAIN ST", "Publisher" ]
+, [ "row-5vch-pwfe~xi2s", "00000000-0000-0000-E112-E8DF581D5E6E", 0, 1539115167, null, 1539115167, null, "{ }", "CONNECTICUT STATE CHECK CASHING SER", "3281", "MAIN ST", "Financial Services" ]
+, [ "row-j8f7~pkkn~xp6g", "00000000-0000-0000-FDEC-4296A5934510", 0, 1539115167, null, 1539115167, null, "{ }", "COUSIN LIQUOR STORE", "213", "GARDEN ST", "Liquor Store" ]
+, [ "row-kdtp.m3rc.vwiz", "00000000-0000-0000-EEA1-FE151F374803", 0, 1539115167, null, 1539115167, null, "{ }", "COZY SPOT LLC", "77", "BARBOUR ST", "Restaurant" ]
+, [ "row-dnp2~cxxk-8t2x", "00000000-0000-0000-0B5E-94D0E3BC53FD", 0, 1539115167, null, 1539115167, null, "{ }", "CRAFT WORK CONSTRUCTION", "251", "RIDGEFIELD ST", "Construction Company" ]
+, [ "row-sh3y_87mx~69uq", "00000000-0000-0000-A71E-C9DFAE270ADD", 0, 1539115167, null, 1539115167, null, "{ }", "CROSS COUNTRY AUTOMOTIVE", "583", "WINDSOR ST", "Automobile Services" ]
+, [ "row-w7cj_9sgq~acq5", "00000000-0000-0000-0D43-95C32EA60F50", 0, 1539115167, null, 1539115167, null, "{ }", "CUT TO FIT BARBER SALON", "2562", "MAIN ST", "Barber Shop" ]
+, [ "row-t5wa~jun8-29bv", "00000000-0000-0000-CD97-4C647D9392E5", 0, 1539115167, null, 1539115167, null, "{ }", "DATTCO INC", "2895", "MAIN ST", "Transportation Services" ]
+, [ "row-75he~6s8m-aj8a", "00000000-0000-0000-E54F-B0196AFE68B3", 0, 1539115167, null, 1539115167, null, "{ }", "DE CHIC SALON & NAIL SPA LLC", "2998", "MAIN ST", "Beauty Salon" ]
+, [ "row-z9mx-zrsz-vsgw", "00000000-0000-0000-CBAD-330151496BCC", 0, 1539115167, null, 1539115167, null, "{ }", "DEL NORTE MEXICAN PRODUCE LLC", "3476", "MAIN ST", "Grocery Store" ]
+, [ "row-ennc-mwkw~9yxg", "00000000-0000-0000-D0D8-D525BD3C11AD", 0, 1539115167, null, 1539115167, null, "{ }", "DO IT ALL CLOTHING LLC", "3281", "MAIN ST", "Clothing Store" ]
+, [ "row-qrs4.7ium.v26r", "00000000-0000-0000-0CDA-61C5E2B5FFF8", 0, 1539115167, null, 1539115167, null, "{ }", "DOMINIC AUTO REPAIR SERVICES LLC", "3311", "MAIN ST", "Auto Repair Shop" ]
+, [ "row-m4zc~rt5p-wi5j", "00000000-0000-0000-A657-9647D119EB21", 0, 1539115167, null, 1539115167, null, "{ }", "DOMINICAN HAIR SALON LLC", "3003", "MAIN ST", "Hair Salon" ]
+, [ "row-2xpi_66sk-ejm2", "00000000-0000-0000-AD4B-F30916243737", 0, 1539115167, null, 1539115167, null, "{ }", "DR GROCERY LLC", "215", "CAPEN ST", "Grocery Store" ]
+, [ "row-9342_7x2b~x5xf", "00000000-0000-0000-8FEF-1F0A511F7B1C", 0, 1539115167, null, 1539115167, null, "{ }", "DR'S BELSKY ATLAS WISKOWSKI", "675", "TOWER AV", "Doctor Office" ]
+, [ "row-jzbi.9t3k-vudx", "00000000-0000-0000-6086-C62A84D55CC3", 0, 1539115167, null, 1539115167, null, "{ }", "DUNN'S RIVER JAMAICAN RESTAURANT LLC", "2996", "MAIN ST", "Restaurant" ]
+, [ "row-n4ms~gdyu.tzsf", "00000000-0000-0000-34BF-3E30174FA1F5", 0, 1539115167, null, 1539115167, null, "{ }", "ELECTRICAL CONTRACTORS INC", "3510", "MAIN ST", "Electrical Contractors" ]
+, [ "row-eqey~g4f8~vc9v", "00000000-0000-0000-B334-348310A128D1", 0, 1539115167, null, 1539115167, null, "{ }", "ELLIS & ELLIS LLC", "36", "ROSEMONT ST", "Medical Office" ]
+, [ "row-9687-djv4.4skm", "00000000-0000-0000-2405-6510E2F3187A", 0, 1539115167, null, 1539115167, null, "{ }", "ELMER MARKET", "35", "ELMER ST", "Grocery Store" ]
+, [ "row-z7rt-zgna.gk3h", "00000000-0000-0000-6B05-992627FF91EC", 0, 1539115167, null, 1539115167, null, "{ }", "ENFIELD-MAGNOLIA ASSOCIATES LP", "25", "ENFIELD ST", "Law Firm" ]
+, [ "row-9qvt~z2p4_da63", "00000000-0000-0000-6CE2-1E6152DF819E", 0, 1539115167, null, 1539115167, null, "{ }", "ERD CONTRACTING", "23", "WINCHESTER ST", "Construction Contractor" ]
+, [ "row-y4z2-mivr-bztp", "00000000-0000-0000-D852-8D7CCFCA70CB", 0, 1539115167, null, 1539115167, null, "{ }", "ESTHERS BRAID AND BEAUTY", "154", "KENSINGTON ST", "Beauty Salon" ]
+, [ "row-uwd4-b9jn.c4mn", "00000000-0000-0000-6360-250D9CD41B34", 0, 1539115167, null, 1539115167, null, "{ }", "EVERKLEEN MOBILE DETAILING", "420", "EDGEWOOD ST", "Auto Detailing" ]
+, [ "row-zbm3-8zn3~ibei", "00000000-0000-0000-9EE3-8E58F6B18078", 0, 1539115167, null, 1539115167, null, "{ }", "EXOTIC BLOOMS", "3372", "MAIN ST", "Florist" ]
+, [ "row-dwa3.c4kt~aiuu", "00000000-0000-0000-E69B-67BDA89CCE39", 0, 1539115167, null, 1539115167, null, "{ }", "EXPRESS COUNTERTOPS KITCHEN & FLOOR", "3080", "MAIN ST", "Cabinet Store" ]
+, [ "row-gm3j_ep3q~iw6z", "00000000-0000-0000-1EF2-11A7753CE979", 0, 1539115167, null, 1539115167, null, "{ }", "F & S IRONWORKS INC", "818", "WINDSOR ST", "Fence Supply Store" ]
+, [ "row-y2mv-xwjy~r9t3", "00000000-0000-0000-16B3-DEAFA06C11D3", 0, 1539115167, null, 1539115167, null, "{ }", "F A JACOBS REAL ESTATE & APPR", "3440", "MAIN ST", "Real Estate Firm" ]
+, [ "row-azzr_a55f_gg37", "00000000-0000-0000-EEB7-CAFE7E954179", 0, 1539115167, null, 1539115167, null, "{ }", "FATIMA HAIR DISCOUNT", "267", "BARBOUR ST", "Cosmetics Store" ]
+, [ "row-bpua_x2ps_vifc", "00000000-0000-0000-86B0-DE47CE55D646", 0, 1539115167, null, 1539115167, null, "{ }", "FELO SUPER DELI", "209", "CAPEN ST", "Deli" ]
+, [ "row-j9hg-xrjk.fw2j", "00000000-0000-0000-7F04-0BF83D8059BC", 0, 1539115167, null, 1539115167, null, "{ }", "FLOTATION INNOVATIONS", "2850", "MAIN ST", "Furniture Wholesaler" ]
+, [ "row-hiwf.h3it-83z7", "00000000-0000-0000-0DBC-70EF70B11486", 0, 1539115167, null, 1539115167, null, "{ }", "FRANKS AUTOBODY LLC", "56", "SANFORD ST", "Automobile Services" ]
+, [ "row-ypc3-ijvf_i7rr", "00000000-0000-0000-712B-4BF5EA63AA61", 0, 1539115167, null, 1539115167, null, "{ }", "FRESENIUS OF HARTFORD", "3580", "MAIN ST", "Dialysis Center" ]
+, [ "row-qefq_stmc-juve", "00000000-0000-0000-26E5-010BA1FFA543", 0, 1539115167, null, 1539115167, null, "{ }", "G & G ENTERPRISES INC", "726", "WINDSOR ST", "Construction Group" ]
+, [ "row-t39u~pcbm-5a9s", "00000000-0000-0000-6FDD-FD977B0709CB", 0, 1539115167, null, 1539115167, null, "{ }", "GENEVA CAPITAL LLC", "762", "GARDEN ST", "Financial Services" ]
+, [ "row-isgt.ha7h~5uej", "00000000-0000-0000-C7B0-70B797D053F8", 0, 1539115167, null, 1539115167, null, "{ }", "GOLD AND SILVER EMPORIUM PLUS", "2739", "MAIN ST", "Jewlery Store" ]
+, [ "row-isjv_ptxm_66zd", "00000000-0000-0000-6C83-CBBAEEAE5AF8", 0, 1539115167, null, 1539115167, null, "{ }", "GOLD COAST SHIPPING & SGF FREIGHT L", "2964", "MAIN ST", "Freight Forwarding Service" ]
+, [ "row-mdw9-7uyf_siui", "00000000-0000-0000-112A-B07B7058969E", 0, 1539115167, null, 1539115167, null, "{ }", "GOOD SHEPHERD AUTO SALES LLC", "755", "WINDSOR ST", "Car Dealership" ]
+, [ "row-xk7i_33qg~kzx8", "00000000-0000-0000-9D27-805016A8FECB", 0, 1539115167, null, 1539115167, null, "{ }", "GROSSMAN MARKETING GROUP", "10", "MIDLAND ST", "Marketing Firm" ]
+, [ "row-n6ir-qvwh_3436", "00000000-0000-0000-CAB4-957D83D0161C", 0, 1539115167, null, 1539115167, null, "{ }", "GUAVATE CAFE", "847", "WINDSOR ST", "Restaurant" ]
+, [ "row-6ex5.gp2y~ew4d", "00000000-0000-0000-BC0F-8654044B6A09", 0, 1539115167, null, 1539115167, null, "{ }", "HAIR ZONE INC", "3155", "MAIN ST", "Hair Salon" ]
+, [ "row-yyx8~h762-x6q6", "00000000-0000-0000-40BA-97CE1E08091B", 0, 1539115167, null, 1539115167, null, "{ }", "HAIRSPRAY BEAUTY SALON", "2739", "MAIN ST", "Beauty Salon" ]
+, [ "row-6cte-mh7p-z9fp", "00000000-0000-0000-7BCB-E520F4B1AB31", 0, 1539115167, null, 1539115167, null, "{ }", "HALIMA'S HELPING HANDS", "66", "CHARLOTTE ST", "Home Care Services" ]
+, [ "row-mzem.s9qm-ks2q", "00000000-0000-0000-DBA1-B2BBD5250B8B", 0, 1539115167, null, 1539115167, null, "{ }", "HALL & ASSOCIATES", "3580", "MAIN ST", "Computer Support Services" ]
+, [ "row-txim_ftbh_xtjx", "00000000-0000-0000-92AB-D7EA72BC2679", 0, 1539115167, null, 1539115167, null, "{ }", "HARTFORD #1 CHINESE RESTAURANT", "3155", "MAIN ST", "Restaurant" ]
+, [ "row-skzc_mng2-ysrg", "00000000-0000-0000-44CF-5B4D5F1ACCF3", 0, 1539115167, null, 1539115167, null, "{ }", "HARTFORD AUTO BODY LLC", "651", "WINDSOR ST", "Automobile Services" ]
+, [ "row-8cfh-c9ja_7tff", "00000000-0000-0000-C53C-ABB7339567DD", 0, 1539115167, null, 1539115167, null, "{ }", "HARTFORD LIQUOR STORE", "210", "CAPEN ST", "Liquor Store" ]
+, [ "row-5b3a.iq3a~nbfa", "00000000-0000-0000-2690-18A9D4056DA0", 0, 1539115167, null, 1539115167, null, "{ }", "HEAD 2 TOE HAIR & BARBER", "2087", "MAIN ST", "Hair Cuttery" ]
+, [ "row-rvu2.b75d_phne", "00000000-0000-0000-2729-6B7B128C072E", 0, 1539115167, null, 1539115167, null, "{ }", "HOT POTS", "2374", "MAIN ST", "Restaurant" ]
+, [ "row-djg6-aeus~36sg", "00000000-0000-0000-F330-1765C6898C57", 0, 1539115167, null, 1539115167, null, "{ }", "HOUSING RESOURCE CORP", "2155", "MAIN ST", "Property Management Company" ]
+, [ "row-z5rj-x229_6up4", "00000000-0000-0000-D9BF-B68BDC2E91DC", 0, 1539115167, null, 1539115167, null, "{ }", "HUNTINGTON MANOR CONDOMINIUM ASS. I", "270", "VINE ST", "Condominium Complex" ]
+, [ "row-ctns.cj4d_3v8e", "00000000-0000-0000-E366-E969D6300094", 0, 1539115167, null, 1539115167, null, "{ }", "IT`S A GEE THANG BARBER SALON", "2404", "MAIN ST", "Barber Shop" ]
+, [ "row-bmfz-q7uz-7z46", "00000000-0000-0000-C2A9-164DDE891B17", 0, 1539115167, null, 1539115167, null, "{ }", "J & D PERFORMENCE LLC", "3311", "MAIN ST", "Auto Repair Shop" ]
+, [ "row-h3uk_q65x.yqh5", "00000000-0000-0000-CB41-D5F6052D7B36", 0, 1539115167, null, 1539115167, null, "{ }", "J & J SUPERFOOD LLC", "224", "CAPEN ST", "Grocery Store" ]
+, [ "row-82ds_mizz-m6w6", "00000000-0000-0000-F7F5-007DDDC43F74", 0, 1539115167, null, 1539115167, null, "{ }", "J D PERFORMANCE LLC", "160", "F D OATES AV", "Auto Repair Shop" ]
+, [ "row-7tbu_wi3n.8ueg", "00000000-0000-0000-33A8-1798E1F8ECEA", 0, 1539115167, null, 1539115167, null, "{ }", "J R CONVENIENCE STORE", "194", "WESTLAND ST", "Grocery Store" ]
+, [ "row-fnjy~9vvd-s8dg", "00000000-0000-0000-EF65-D55F8345BBB6", 0, 1539115167, null, 1539115167, null, "{ }", "JERK PIT CAFE AND CATERING LLC", "2940", "MAIN ST", "Restaurant" ]
+, [ "row-kt2s_x3kg.nca4", "00000000-0000-0000-E366-D5FE30873183", 0, 1539115167, null, 1539115167, null, "{ }", "JOHNNY`S BARBER BEAUTY SALON", "164", "WESTLAND ST", "Hair Cuttery" ]
+, [ "row-23pb~a3s5_37v4", "00000000-0000-0000-FD56-4E4F06AC4E07", 0, 1539115167, null, 1539115167, null, "{ }", "JOHNSON FISH MARKET", "218", "CAPEN ST", "Seafood Wholesaler" ]
+, [ "row-n8i4-g5b5.ev7b", "00000000-0000-0000-3019-DEE7CF73B6BD", 0, 1539115167, null, 1539115167, null, "{ }", "JOHNSON`S CONSTRUCTION", "24", "EARLE ST", "Landscaper" ]
+, [ "row-isma~whec~244q", "00000000-0000-0000-7EF9-1B32D4642469", 0, 1539115167, null, 1539115167, null, "{ }", "JOURNEY SALON", "3013", "MAIN ST", "Hair Salon" ]
+, [ "row-u75h~jjgb-f9h4", "00000000-0000-0000-27BA-5E95DAEFBB36", 0, 1539115167, null, 1539115167, null, "{ }", "JR SUPERMARKET LLC", "194", "WESTLAND ST", "Grocery Store" ]
+, [ "row-hv5d-w8a5_tah2", "00000000-0000-0000-2087-F677AAB74BE5", 0, 1539115167, null, 1539115167, null, "{ }", "JS & RS LLC", "211", "GARDEN ST", "Law Firm" ]
+, [ "row-5try_ujfp_2i6q", "00000000-0000-0000-31FF-D6269D6A1BD0", 0, 1539115167, null, 1539115167, null, "{ }", "KINGSLEYS CT AUTOMOVITE CENTER LLC", "837", "WINDSOR ST", "Automobile Services" ]
+, [ "row-nup6~sgcg~p4w9", "00000000-0000-0000-BC73-6EAAC0E56744", 0, 1539115167, null, 1539115167, null, "{ }", "KNOTTS N KURLS BEAUTIQUE", "2964", "MAIN ST", "Hair Salon" ]
+, [ "row-v29n.bs33.nhaw", "00000000-0000-0000-1920-1FA6006EE205", 0, 1539115167, null, 1539115167, null, "{ }", "LA CARIBENA GROCERY LLC", "175", "NELSON ST", "Grocery Store" ]
+, [ "row-adhw-b8c6-mdg9", "00000000-0000-0000-2EAD-03914EB9CF85", 0, 1539115167, null, 1539115167, null, "{ }", "LADIES FIRST WOMEN'S CLOTHING & ACC", "2739", "MAIN ST", "Women's Clothing Store" ]
+, [ "row-szf4_6xbc.9hw3", "00000000-0000-0000-B813-9D06ECADE8D1", 0, 1539115167, null, 1539115167, null, "{ }", "LEE MOTORS INC", "3298", "MAIN ST", "Used Car Dealership" ]
+, [ "row-97zt.bfin.hr37", "00000000-0000-0000-FA24-E0C24779B171", 0, 1539115167, null, 1539115167, null, "{ }", "LEGENDS BARBER SHOP", "127", "BARBOUR ST", "Barber Shop" ]
+, [ "row-s2kg_ybkh~pthf", "00000000-0000-0000-7043-858CD9326043", 0, 1539115167, null, 1539115167, null, "{ }", "LILLIAN GROCERY", "2543", "MAIN ST", "Grocery Store" ]
+, [ "row-gsy7_3er5~uh3f", "00000000-0000-0000-CD6C-CDCB6A233CA4", 0, 1539115167, null, 1539115167, null, "{ }", "LIONS DEN VEGETARIAN RESTAURANT LLC", "3347", "MAIN ST", "Restaurant" ]
+, [ "row-nh8c-ye7e_cb4h", "00000000-0000-0000-5970-686AD0B5620C", 0, 1539115167, null, 1539115167, null, "{ }", "LIQUOR OUTLET", "2790", "MAIN ST", "Liquor Store" ]
+, [ "row-26j8-cccr.r6p9", "00000000-0000-0000-5145-8A2029D37C46", 0, 1539115167, null, 1539115167, null, "{ }", "LONG & GRIER TRUCKING INC", "2920", "MAIN ST", "Transportation Company" ]
+, [ "row-r7sb-xpb9~qvis", "00000000-0000-0000-CBB0-B09D6C35767B", 0, 1539115167, null, 1539115167, null, "{ }", "LOS BROTHERS GROCERY LLC", "2370", "MAIN ST", "Grocery Store" ]
+, [ "row-kt6t~86be.p6iw", "00000000-0000-0000-7B1B-84E3F50BBA53", 0, 1539115167, null, 1539115167, null, "{ }", "LOYAL TEAM CLEANING LLC", "726", "WINDSOR ST", "Cleaning Services" ]
+, [ "row-ga72_wbeu~fut6", "00000000-0000-0000-6A98-4063844F113A", 0, 1539115167, null, 1539115167, null, "{ }", "M & W MOTORS LLC", "709", "WINDSOR ST", "Automobile Services" ]
+, [ "row-c8rz_idg6_vkxk", "00000000-0000-0000-6F91-2391920B86D0", 0, 1539115167, null, 1539115167, null, "{ }", "MACHINERY SERVICES LLC", "3030", "MAIN ST", "Cleaning Services" ]
+, [ "row-fvru.3gq8.fyh6", "00000000-0000-0000-92F3-9703091F64C9", 0, 1539115167, null, 1539115167, null, "{ }", "MAIN BEAUTY SALON LLC", "3013", "MAIN ST", "Beauty Salon" ]
+, [ "row-fbmi-ws88.fs9a", "00000000-0000-0000-1F37-5FE58958D1F6", 0, 1539115167, null, 1539115167, null, "{ }", "MAXWELLS CORNER", "125", "BARBOUR ST", "Restaurant" ]
+, [ "row-g47t_xkwd_r7tt", "00000000-0000-0000-5197-B0AC8AA8AC51", 0, 1539115167, null, 1539115167, null, "{ }", "MELLO PICK UP AND DELIVERY LLC", "164", "EDGEWOOD ST", "Transportation Services" ]
+, [ "row-7pag.icnk_dwcx", "00000000-0000-0000-6DC1-A79C9F1B8EB3", 0, 1539115167, null, 1539115167, null, "{ }", "MICON ELECTRICAL CONTRACTORS", "98", "CLEVELAND AV", "Electrician" ]
+, [ "row-sjw7.2zym.biui", "00000000-0000-0000-6301-5D4AB2895427", 0, 1539115167, null, 1539115167, null, "{ }", "MIKE & TONY AUTO REPAIR LLC", "275", "TOWER AV", "Automobile Services" ]
+, [ "row-xecb_uurd.shu9", "00000000-0000-0000-D633-4655834F8D76", 0, 1539115167, null, 1539115167, null, "{ }", "MILLER AUTO CENTER LLC", "269", "TOWER AV", "Automobile Services" ]
+, [ "row-n4dy.d4hf.b9wf", "00000000-0000-0000-279C-9AE9B993088F", 0, 1539115167, null, 1539115167, null, "{ }", "MILTON`S AUTOMOTIVE SERVICE", "3430", "MAIN ST", "Automobile Services" ]
+, [ "row-v75g.im6q.sewv", "00000000-0000-0000-E00F-D2ACC1243647", 0, 1539115167, null, 1539115167, null, "{ }", "MODERN UPHOLSTERY", "2282", "MAIN ST", "Upholstery Shop" ]
+, [ "row-mkhq-hziq~wbb3", "00000000-0000-0000-2983-5CFC32498C83", 0, 1539115167, null, 1539115167, null, "{ }", "MOODY CONSULTING FIRM LLC", "780", "WINDSOR ST", "Business Management Consultant" ]
+, [ "row-hgfu-mwv7_22jq", "00000000-0000-0000-2C51-035E281F6501", 0, 1539115167, null, 1539115167, null, "{ }", "MR B MINI MART", "3397", "MAIN ST", "Grocery Store" ]
+, [ "row-75dj.3qvg_6vxp", "00000000-0000-0000-6B01-2E2D82CE0329", 0, 1539115167, null, 1539115167, null, "{ }", "MY FOOD MARKET", "20", "GREENFIELD ST", "Frozen Yogurt Shop" ]
+, [ "row-wbhx-w2an.8fxu", "00000000-0000-0000-DA0F-237E02C7D952", 0, 1539115167, null, 1539115167, null, "{ }", "NAEEM GROCERY & DELI", "2570", "MAIN ST", "Grocery Store" ]
+, [ "row-bz5q-qrdi_puw8", "00000000-0000-0000-14B5-67A8406B0127", 0, 1539115167, null, 1539115167, null, "{ }", "NAOMI'S KITCHEN & GROCERY", "129", "BARBOUR ST", "Grocery Store" ]
+, [ "row-2ifh.yzdq-gxn4", "00000000-0000-0000-732A-32B6D23C6DEA", 0, 1539115167, null, 1539115167, null, "{ }", "NAY'S II WIRELESS CENTER& SMOKESHOP", "2279", "MAIN ST", "Cell Phone Store" ]
+, [ "row-vaff.tzpm.mcn2", "00000000-0000-0000-300B-828ED66223CA", 0, 1539115167, null, 1539115167, null, "{ }", "NAY'S WIRELESS CENTER", "3155", "MAIN ST", "Cell Phone Store" ]
+, [ "row-t9vy~9vdr~pj5g", "00000000-0000-0000-E349-1708327427D7", 0, 1539115167, null, 1539115167, null, "{ }", "NESEED DPSEED", "3580", "MAIN ST", "Seed Services" ]
+, [ "row-ji2c~ervi_ja7k", "00000000-0000-0000-3607-D68BD387C931", 0, 1539115167, null, 1539115167, null, "{ }", "NEW ENGLAND CONSTRUCTION & LANDSCAP", "3580", "MAIN ST", "Construction & Landscaping Company" ]
+, [ "row-37ua-bgni_b76u", "00000000-0000-0000-C3F1-2BCC94E4DC57", 0, 1539115167, null, 1539115167, null, "{ }", "NEW ENGLAND FOAM PRODUCTS LLC", "760", "WINDSOR ST", "Foam Rubber Supplier" ]
+, [ "row-nt2r.mcy6~fpxk", "00000000-0000-0000-8F89-CF8A772EC927", 0, 1539115167, null, 1539115167, null, "{ }", "NEW RED STAR CHINESE RESTARANT", "2393", "MAIN ST", "Restaurant" ]
+, [ "row-g6et-ae5f-f7nv", "00000000-0000-0000-D508-0955B08730B4", 0, 1539115167, null, 1539115167, null, "{ }", "NEW YORK FRIED CHICKEN", "2739", "MAIN ST", "Restaurant" ]
+, [ "row-6msp-tvpk-jbz6", "00000000-0000-0000-7692-EDC6E3047E47", 0, 1539115167, null, 1539115167, null, "{ }", "NINETY FIVE VINE ST", "95", "VINE ST", "Apartment Complex" ]
+, [ "row-gsj8-97uk_qdkh", "00000000-0000-0000-76E4-8455729C4907", 0, 1539115167, null, 1539115167, null, "{ }", "NOBLE GAS INC", "3250", "MAIN ST", "Gas Company" ]
+, [ "row-zef2~u489~ngdt", "00000000-0000-0000-085A-BC3160AA8492", 0, 1539115167, null, 1539115167, null, "{ }", "NORRIS BARBER SHOP", "183", "BARBOUR ST", "Barber Shop" ]
+, [ "row-ug4d-hqjk_ke9g", "00000000-0000-0000-58F3-5F44E79F0176", 0, 1539115167, null, 1539115167, null, "{ }", "NORTHEAST NEWS TODAY INC", "3580", "MAIN ST", "Business Trade Publication" ]
+, [ "row-nv2w.p4df-47em", "00000000-0000-0000-AC24-EF5AE3759009", 0, 1539115167, null, 1539115167, null, "{ }", "NOTHING BUT THE BEST CARPET", "818", "WINDSOR ST", "Carpet Installer" ]
+, [ "row-86a2_smyc-qesu", "00000000-0000-0000-2796-BAEBC4ACEF16", 0, 1539115167, null, 1539115167, null, "{ }", "NUTMEG AUTO SERVICE INC", "3490", "MAIN ST", "Automobile Services" ]
+, [ "row-ftvq-wnzs~t8vt", "00000000-0000-0000-B088-D5DBD130114D", 0, 1539115167, null, 1539115167, null, "{ }", "ONE STOP UPHOLSTERY AND DESIGN", "3060", "MAIN ST", "Upholstery Shop" ]
+, [ "row-ehb2-fqe7~bgy7", "00000000-0000-0000-CC08-25576193249B", 0, 1539115167, null, 1539115167, null, "{ }", "PAGANELLI CONSTRUCTION CORPORATION", "2882", "MAIN ST", "Construction Services" ]
+, [ "row-q5tr-eanc.wa7j", "00000000-0000-0000-E772-69F7545F5A2A", 0, 1539115167, null, 1539115167, null, "{ }", "PANCHO`S DISCOUNT LIQUERS LLC", "292", "BARBOUR ST", "Liquor Store" ]
+, [ "row-d5vs-6cr7_37yn", "00000000-0000-0000-6EBE-7E49633B4963", 0, 1539115167, null, 1539115167, null, "{ }", "PAUL`S RANCH HOUSE OF HARTFORD", "3281", "MAIN ST", "Restaurant" ]
+, [ "row-mz6z.e3js-iep3", "00000000-0000-0000-890E-2C0E581FA65E", 0, 1539115167, null, 1539115167, null, "{ }", "PIZZA OUTLET LLC", "2790", "MAIN ST", "Restaurant" ]
+, [ "row-qqtu.biz9-i4nw", "00000000-0000-0000-74EC-21CDE0666112", 0, 1539115167, null, 1539115167, null, "{ }", "Q MONEY CLOTHING LLC", "2739", "MAIN ST", "Clothing Store" ]
+, [ "row-t2rz.j2rf_hrbk", "00000000-0000-0000-72D5-0998757BD066", 0, 1539115167, null, 1539115167, null, "{ }", "QUEEN BY ALISHA S LLC", "69", "MANSFIELD ST", "Hair Salon" ]
+, [ "row-jgvj_gbhe-f4vp", "00000000-0000-0000-69A0-7E0EAD606B25", 0, 1539115167, null, 1539115167, null, "{ }", "QUEEN ROYAL ENTERTAINMENT PRODUCTION", "716", "GARDEN ST", "Entertainment Management Services" ]
+, [ "row-7vi6.seyc_dbun", "00000000-0000-0000-580C-CCB19D465835", 0, 1539115167, null, 1539115167, null, "{ }", "RANA CAB CO LLC", "50", "ASHFORD ST", "Cab Company" ]
+, [ "row-qv3v.kz3x.4wmp", "00000000-0000-0000-FDE6-37305D47C33E", 0, 1539115167, null, 1539115167, null, "{ }", "RAYS AUTO MALL LLC", "3400", "MAIN ST", "Used Car Dealership" ]
+, [ "row-v4uh_vp2p~j6m8", "00000000-0000-0000-4B60-B74E7C9159B4", 0, 1539115167, null, 1539115167, null, "{ }", "REC TRUCKING LLC", "3440", "MAIN ST", "Transportation Company" ]
+, [ "row-byfb.52tw_pg9n", "00000000-0000-0000-7C35-34417E18EF5D", 0, 1539115167, null, 1539115167, null, "{ }", "REYNOLDS WELDING AND FABRICATION LL", "3468", "MAIN ST", "Steel Fabicator Store" ]
+, [ "row-vsvm~pbcz-cyq9", "00000000-0000-0000-B241-321C238C0EE1", 0, 1539115167, null, 1539115167, null, "{ }", "ROTH SUPPLY LLC", "2113", "MAIN ST", "Building Supply Company" ]
+, [ "row-4jb3~568s~7bsr", "00000000-0000-0000-F709-75B52CBB79FE", 0, 1539115167, null, 1539115167, null, "{ }", "ROWESKI PAINTING LLC", "182", "EDGEWOOD ST", "Painter" ]
+, [ "row-nrub_gsvh.ssdg", "00000000-0000-0000-30F1-D414706A9409", 0, 1539115167, null, 1539115167, null, "{ }", "S & S BEAUTY SALON", "2940", "MAIN ST", "Beauty Salon" ]
+, [ "row-w98t_qbaa~7usj", "00000000-0000-0000-D84A-BD3D9CABB2BF", 0, 1539115167, null, 1539115167, null, "{ }", "SCOTTS JAMAICAN BAKERY", "3381", "MAIN ST", "Bakery" ]
+, [ "row-akgr-wrnf.7rxu", "00000000-0000-0000-68F0-9616681AB65D", 0, 1539115167, null, 1539115167, null, "{ }", "SCOTTS JAMAICAN BAKERY", "801", "WINDSOR ST", "Bakery" ]
+, [ "row-yvm2_hrm3_8buz", "00000000-0000-0000-BE7D-0591C42C7CBF", 0, 1539115167, null, 1539115167, null, "{ }", "SEASHORE SEAFOOD RESTAURANT", "330", "GARDEN ST", "Restaurant" ]
+, [ "row-mbcv~7ye2_hmcs", "00000000-0000-0000-E9A8-99DD37DDFA34", 0, 1539115167, null, 1539115167, null, "{ }", "SEVERANCE FOODS INC", "3476", "MAIN ST", "Manufacturer" ]
+, [ "row-f787_bhdr_7erh", "00000000-0000-0000-60EE-A27434C821B5", 0, 1539115167, null, 1539115167, null, "{ }", "SHABAZZ SERVICE ENTERPRISES LL", "818", "WINDSOR ST", "Entertainment Services" ]
+, [ "row-mkma_5i4z_ynch", "00000000-0000-0000-CA7A-E492A23483D4", 0, 1539115167, null, 1539115167, null, "{ }", "SHANS VARIETY STORE LLC", "2751", "MAIN ST", "Variety Store" ]
+, [ "row-2qbd~aqr2~a7hi", "00000000-0000-0000-7DBB-140DDA0801B9", 0, 1539115167, null, 1539115167, null, "{ }", "SISTERS RESTAURANT & CATERING", "2756", "MAIN ST", "Restaurant" ]
+, [ "row-s2na_95eh_vjhf", "00000000-0000-0000-F27E-53424C1BF49A", 0, 1539115167, null, 1539115167, null, "{ }", "SMOKERS HOT SPOT", "2753", "MAIN ST", "Tobacco Shop" ]
+, [ "row-a4w2_ymbu.9xv8", "00000000-0000-0000-A217-2554ACCD5CB9", 0, 1539115167, null, 1539115167, null, "{ }", "SOUND MOTION AUDIO LLC", "3460", "MAIN ST", "Car Stereo Store" ]
+, [ "row-ftg7.kr2g_8pnw", "00000000-0000-0000-A295-00FC82452FBC", 0, 1539115167, null, 1539115167, null, "{ }", "SPORTSMEN`S ATHLETIC CLUB INC", "2976", "MAIN ST", "Sports Activity Location" ]
+, [ "row-r6tj.jf96-aabf", "00000000-0000-0000-8671-37B485731686", 0, 1539115167, null, 1539115167, null, "{ }", "STAR HARDWARE CORP", "2995", "MAIN ST", "Hardware Store" ]
+, [ "row-sg4g.djej.wcrc", "00000000-0000-0000-FFE0-ACD3CF826D4C", 0, 1539115167, null, 1539115167, null, "{ }", "STARLING PHYSICIANS PC", "3580", "MAIN ST", "Medical Office" ]
+, [ "row-2v66_5rdj.4pik", "00000000-0000-0000-2C6B-6D5D96F45790", 0, 1539115167, null, 1539115167, null, "{ }", "STAY FLY BARBER", "2814", "MAIN ST", "Barber Shop" ]
+, [ "row-8e9h-74pn-mgcr", "00000000-0000-0000-7088-8EF50C578975", 0, 1539115167, null, 1539115167, null, "{ }", "STG SPANISH AMERICAN GROCERY STORE", "441", "BARBOUR ST", "Grocery Store" ]
+, [ "row-yzhs_byhx-jai4", "00000000-0000-0000-0282-92E19980E024", 0, 1539115167, null, 1539115167, null, "{ }", "STYLE RITE BEAUTY SALON", "2582", "MAIN ST", "Beauty Salon" ]
+, [ "row-6tnf_cyq6-gmaw", "00000000-0000-0000-C59F-897F1DA422EE", 0, 1539115167, null, 1539115167, null, "{ }", "SUEDE CINEMATIX LLC", "2665", "MAIN ST", "Media Firm" ]
+, [ "row-jn7f.4amg.jt2a", "00000000-0000-0000-F7AB-C919D430EC38", 0, 1539115167, null, 1539115167, null, "{ }", "SUNSET CAFE LLC", "3229", "MAIN ST", "Restaurant" ]
+, [ "row-h9nj~jgw5~976r", "00000000-0000-0000-7674-33391668D64A", 0, 1539115167, null, 1539115167, null, "{ }", "SUPER DELI LOS CENTENARIO GROCERY", "2383", "MAIN ST", "Grocery Store" ]
+, [ "row-6yuy.3h85.h5xn", "00000000-0000-0000-E063-5DC5FA80A40F", 0, 1539115167, null, 1539115167, null, "{ }", "SUPER SPRING & BRAKE CO INC", "767", "WINDSOR ST", "Brake Shop" ]
+, [ "row-sd6k~7c75_jisp", "00000000-0000-0000-3D24-8003922FA6AA", 0, 1539115167, null, 1539115167, null, "{ }", "T & T ELECTRICAL CONTRATORS INC", "420", "WINDSOR ST", "Electrical Contractors" ]
+, [ "row-6anc~w6v8-ey56", "00000000-0000-0000-3C79-5EB25840248A", 0, 1539115167, null, 1539115167, null, "{ }", "T G HOME IMPROVEMENT LLC", "3030", "MAIN ST", "Home Improvement Store" ]
+, [ "row-kfjk.psjt~ev6x", "00000000-0000-0000-67E7-78536F51C373", 0, 1539115167, null, 1539115167, null, "{ }", "THE ACTION AUDIO STORE", "2814", "MAIN ST", "Electronics Store" ]
+, [ "row-w3kd_5ct2-kqc5", "00000000-0000-0000-3449-E5F047483DB9", 0, 1539115167, null, 1539115167, null, "{ }", "THE GOOD HAIR BOUTIQUE", "179", "BARBOUR ST", "Hair Salon" ]
+, [ "row-b9uf.pxs5_66qd", "00000000-0000-0000-3016-58867EEE9EE6", 0, 1539115167, null, 1539115167, null, "{ }", "THE ICE FACTORY", "423", "EDGEWOOD ST", "Ice Supplier" ]
+, [ "row-uvyv.w9xv-8iif", "00000000-0000-0000-995D-FB90D66C4372", 0, 1539115167, null, 1539115167, null, "{ }", "THE MAIN AVENT GROUP LLC", "73", "KENSINGTON ST", "Business Servicees" ]
+, [ "row-zs6t-jrv4.69d5", "00000000-0000-0000-4848-C68DDD466B76", 0, 1539115167, null, 1539115167, null, "{ }", "THE PARTY HOUSE", "2568", "MAIN ST", "Party Supply Store" ]
+, [ "row-r2vj.24zu_iiz3", "00000000-0000-0000-2E06-B23AE07B9D01", 0, 1539115167, null, 1539115167, null, "{ }", "THE SAVVY BOUTIQUE", "818", "WINDSOR ST", "Clothing Store" ]
+, [ "row-arxh.a5k5-zsv7", "00000000-0000-0000-B551-DC7F76C72786", 0, 1539115167, null, 1539115167, null, "{ }", "THE SUITE SPOT LLC", "25", "GAINES DR", "Beauty Salon" ]
+, [ "row-y5n9.hzss~jc2t", "00000000-0000-0000-E98F-F4F30232C4CC", 0, 1539115167, null, 1539115167, null, "{ }", "THE UPPER ROOM", "3000", "MAIN ST", "Hair Cuttery" ]
+, [ "row-h38z_i3q7_fzkv", "00000000-0000-0000-F48B-3A41F7129B2E", 0, 1539115167, null, 1539115167, null, "{ }", "THOMPSON FLOORING LLC", "130", "HAMPTON ST", "Flooring Company" ]
+, [ "row-ag2y_9238_x24h", "00000000-0000-0000-4773-4D684BC0BA0C", 0, 1539115167, null, 1539115167, null, "{ }", "TIRE REPAIR NEW AND USED", "3030", "MAIN ST", "Tire Repair Services" ]
+, [ "row-nmr2-8r8m-bu78", "00000000-0000-0000-C67C-378484C06EA5", 0, 1539115167, null, 1539115167, null, "{ }", "TODAYS FASHIONS", "175", "BARBOUR ST", "Men's Clothing Store" ]
+, [ "row-wvp9.edxk.jcfg", "00000000-0000-0000-F15D-AB71566F0004", 0, 1539115167, null, 1539115167, null, "{ }", "TRAVIS V LIPSCOMB", "29", "GREENFIELD ST", "Law Firm" ]
+, [ "row-8i9e_24ce_wudc", "00000000-0000-0000-D60D-7670A6F90705", 0, 1539115167, null, 1539115167, null, "{ }", "TRINITY CARRY OUT", "3155", "MAIN ST", "Restaurant" ]
+, [ "row-s27u-5yuw_4e5i", "00000000-0000-0000-2197-C85154745EAB", 0, 1539115167, null, 1539115167, null, "{ }", "TRU BOOKS TOREIGN PUBLISHING", "3155", "MAIN ST", "Book Store" ]
+, [ "row-2bg2-2834-3dea", "00000000-0000-0000-9D8D-15EF2456197A", 0, 1539115167, null, 1539115167, null, "{ }", "U S FURNITURE LLC", "3470", "MAIN ST", "Furniture Store" ]
+, [ "row-ia7e-8wpr-knjh", "00000000-0000-0000-40BC-5C6BC251834D", 0, 1539115167, null, 1539115167, null, "{ }", "UNDERGROUND AUTOMOTIVE", "639", "WINDSOR ST", "Automobile Services" ]
+, [ "row-g7yu.ejsz~t3ts", "00000000-0000-0000-8CBF-FEC8F6D04892", 0, 1539115167, null, 1539115167, null, "{ }", "UNITED BANQUET HALL & CAFE LLC", "2964", "MAIN ST", "Restuarant" ]
+, [ "row-zyx9-2hkq.k4z3", "00000000-0000-0000-C39A-EB912D47E78B", 0, 1539115167, null, 1539115167, null, "{ }", "UPTOWN ACA FOODS", "3155", "MAIN ST", "Grocery Store" ]
+, [ "row-6hi6~6fji~mbym", "00000000-0000-0000-932D-1714D2436DFB", 0, 1539115167, null, 1539115167, null, "{ }", "URBAN CONTRACTORS OF CT LLC", "3080", "MAIN ST", "Contracting Company" ]
+, [ "row-5u4j-jwpy-9ppe", "00000000-0000-0000-452A-057B5880D7A3", 0, 1539115167, null, 1539115167, null, "{ }", "VIBZ UPTOWN FLAVA", "3155", "MAIN ST", "Event Venue" ]
+, [ "row-ywdt.i4rp~p3vh", "00000000-0000-0000-650B-439C977741D6", 0, 1539115167, null, 1539115167, null, "{ }", "VINCENT MESSINA MASONRY LLC", "500", "WINDSOR ST", "Masonry Company" ]
+, [ "row-bbd6~pncy-iyte", "00000000-0000-0000-1AFD-32A6B36B17DA", 0, 1539115167, null, 1539115167, null, "{ }", "VIOLET'S CAFE LLC", "3580", "MAIN ST", "Restaurant" ]
+, [ "row-4kib.9q4w~4aaw", "00000000-0000-0000-0BFA-B9A61F1309A5", 0, 1539115167, null, 1539115167, null, "{ }", "WALTON`S AUTO REPAIR", "129", "NELSON ST", "Automobile Services" ]
+, [ "row-it54_7wvk-savm", "00000000-0000-0000-2679-5037EFC4DA88", 0, 1539115167, null, 1539115167, null, "{ }", "WAVE ONE LOGISTICS", "450", "BARBOUR ST", "Transportation Company" ]
+, [ "row-mut8~hmyn.27ts", "00000000-0000-0000-0789-27DCF4C31558", 0, 1539115167, null, 1539115167, null, "{ }", "WAVERLY DAY CARE CENTER", "55", "WAVERLY ST", "Child Care Center" ]
+, [ "row-amvk_62b9_bz2x", "00000000-0000-0000-A23D-251EFFB6D585", 0, 1539115167, null, 1539115167, null, "{ }", "WINDSOR STREET AUTO LLC", "709", "WINDSOR ST", "Automobile Services" ]
+, [ "row-q87q~xa8u~nzke", "00000000-0000-0000-5089-A1AD1CE52414", 0, 1539115167, null, 1539115167, null, "{ }", "XANDAU HAIR SALON & BARBER", "3345", "MAIN ST", "Hair Cuttery" ]
+, [ "row-dciz-vjyk_zyx3", "00000000-0000-0000-3FC4-DCB379D9310D", 0, 1539115167, null, 1539115167, null, "{ }", "XCLUSIVE BARBERS SHOP", "2279", "MAIN ST", "Barber Shop" ]
+, [ "row-x5nd_g862~em2w", "00000000-0000-0000-C1E3-D802A51DCC5B", 0, 1539115167, null, 1539115167, null, "{ }", "YOUR KEYS REALTY", "3371", "MAIN ST", "Real Estate Firm" ]
+, [ "row-xdni_2n9j~w54d", "00000000-0000-0000-BBB1-340DEFE7E9A6", 0, 1539115167, null, 1539115167, null, "{ }", "YOUR NEIGHBORHOOD LAUNDROMAT", "291", "BARBOUR ST", "Laundromat" ]
+, [ "row-8w5j_yfpn~d2cm", "00000000-0000-0000-1A9D-315A61720504", 0, 1539115167, null, 1539115167, null, "{ }", "ZIMMER US INC", "675", "TOWER AV", "Medical Supply Store" ]
  ]
 }

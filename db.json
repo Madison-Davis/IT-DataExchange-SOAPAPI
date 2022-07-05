@@ -1,0 +1,315 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "hnsc-tc3b",
+      "name" : "Oregon Royalty Fund",
+      "assetType" : "dataset",
+      "attribution" : "Business Oregon",
+      "attributionLink" : "https://www.oregon4biz.com/About-Us/Investments-Report/",
+      "averageRating" : 0,
+      "category" : "Revenue & Expense",
+      "createdAt" : 1569875107,
+      "description" : "The Oregon Royalty Fund provides direct loans to help early stage (post R & D and prototyping), scalable, and high-margin small businesses obtain short-term working capital to support rapid growth. This report covers Fiscal Years 2019-2021. For more information visit https://www.oregon4biz.com/How-We-Can-Help/Finance-Programs/ORF/",
+      "displayType" : "table",
+      "downloadCount" : 277,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1569950733,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 32520714,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1569883131,
+      "publicationGroup" : 16600187,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1632810864,
+      "rowsUpdatedBy" : "j3nq-6jqm",
+      "tableId" : 16600187,
+      "totalTimesRated" : 0,
+      "viewCount" : 436,
+      "viewLastModified" : 1632810863,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1569883132,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 1289813,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1569883132,
+        "workflowId" : 1508,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1569883132,
+          "failureCount" : 0,
+          "startedAt" : 1569883132,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "ewcx-ibs2",
+          "displayName" : "Carmen Spuhler"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 431066199,
+        "name" : "Business Receiving Loan",
+        "dataTypeName" : "text",
+        "description" : "Business Receiving Loan",
+        "fieldName" : "business_receiving_loan",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 88461943,
+        "cachedContents" : {
+          "largest" : "No activity",
+          "non_null" : "3",
+          "null" : "0",
+          "top" : [ {
+            "item" : "No activity",
+            "count" : "1"
+          }, {
+            "item" : "Kaczmarek Digital Media Group, Inc.",
+            "count" : "1"
+          }, {
+            "item" : "DulsEnergy, Inc.",
+            "count" : "1"
+          } ],
+          "smallest" : "DulsEnergy, Inc.",
+          "count" : "3",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 431066200,
+        "name" : "Year Loan Made",
+        "dataTypeName" : "text",
+        "description" : "Year Loan Made",
+        "fieldName" : "year_loan_made",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 88461944,
+        "cachedContents" : {
+          "largest" : "FY2021",
+          "non_null" : "3",
+          "null" : "0",
+          "top" : [ {
+            "item" : "FY2019",
+            "count" : "1"
+          }, {
+            "item" : "FY2021",
+            "count" : "1"
+          }, {
+            "item" : "FY2020",
+            "count" : "1"
+          } ],
+          "smallest" : "FY2019",
+          "count" : "3",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 431066201,
+        "name" : "Use of Funds",
+        "dataTypeName" : "text",
+        "description" : "Project description",
+        "fieldName" : "use_of_funds",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 88461945,
+        "cachedContents" : {
+          "largest" : "Working Capital to grow business Sales",
+          "non_null" : "2",
+          "null" : "1",
+          "top" : [ {
+            "item" : "Working Capital to grow business Sales",
+            "count" : "1"
+          }, {
+            "item" : "Seaweed Farming & Food Processing",
+            "count" : "1"
+          } ],
+          "smallest" : "Seaweed Farming & Food Processing",
+          "count" : "3",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 431066202,
+        "name" : "Award Type",
+        "dataTypeName" : "text",
+        "description" : "Award Type (Grant, Loan, etc.)",
+        "fieldName" : "award_type",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 88461946,
+        "cachedContents" : {
+          "largest" : "Loan",
+          "non_null" : "2",
+          "null" : "1",
+          "top" : [ {
+            "item" : "Loan",
+            "count" : "2"
+          } ],
+          "smallest" : "Loan",
+          "count" : "3",
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 431066203,
+        "name" : "Amount",
+        "dataTypeName" : "number",
+        "description" : "US$",
+        "fieldName" : "amount",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 88461947,
+        "cachedContents" : {
+          "largest" : "250000",
+          "non_null" : "2",
+          "null" : "1",
+          "top" : [ {
+            "item" : "100000",
+            "count" : "1"
+          }, {
+            "item" : "250000",
+            "count" : "1"
+          } ],
+          "smallest" : "100000",
+          "count" : "3",
+          "cardinality" : "2"
+        },
+        "format" : {
+          "precisionStyle" : "currency",
+          "currencyStyle" : "USD"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Dataset Information" : {
+            "Geographic Coverage" : "Statewide ",
+            "Data Publishing Frequency" : "Annually",
+            "Data Change Frequency" : "Annually",
+            "Agency Name" : "Business Oregon ",
+            "Agency URL" : "https://www.oregon4biz.com/"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "ewcx-ibs2",
+        "displayName" : "Carmen Spuhler",
+        "profileImageUrlLarge" : "/api/users/ewcx-ibs2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/ewcx-ibs2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/ewcx-ibs2/profile_images/TINY",
+        "screenName" : "Carmen Spuhler",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ewcx-ibs2",
+        "displayName" : "Carmen Spuhler",
+        "profileImageUrlLarge" : "/api/users/ewcx-ibs2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/ewcx-ibs2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/ewcx-ibs2/profile_images/TINY",
+        "screenName" : "Carmen Spuhler",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "tags" : [ "oregon royalty fund", "fiscal year 2019", "fiscal year 2020", "fiscal year 2021" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-zup6-cs82~t6xv", "00000000-0000-0000-8625-B7785E0B2DD4", 0, 1632810864, null, 1632810864, null, "{ }", "DulsEnergy, Inc.", "FY2019", "Seaweed Farming & Food Processing", "Loan", "250000" ]
+, [ "row-iqau_qpy9-2nct", "00000000-0000-0000-2FC8-CE372E449D64", 0, 1632810864, null, 1632810864, null, "{ }", "No activity", "FY2020", null, null, null ]
+, [ "row-j2fz~f4en~hmry", "00000000-0000-0000-C9C9-BD370DA76EDA", 0, 1632810864, null, 1632810864, null, "{ }", "Kaczmarek Digital Media Group, Inc.", "FY2021", "Working Capital to grow business Sales", "Loan", "100000" ]
+ ]
+}
